@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(view: View) {
         val id = view.id
         if (id == R.id.buttonCalculate) {
-            calculate()
+            calculate() //
         }
     }
 
@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         return (editDistance.text.toString() != ""
                 && editPrice.text.toString() != ""
                 && editAutonomy.text.toString() != ""
-                )
+                ) //Checando se os campos estão preenchidos
     }
 
     private fun calculate() {

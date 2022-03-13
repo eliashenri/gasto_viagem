@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="10dp"
+    android:padding="30dp"
     tools:context=".MainActivity">
 
 
@@ -74,8 +74,9 @@
         android:text="@string/r0" />
 
     <Button
+        android:layout_marginHorizontal="20dp"
         android:id="@+id/buttonCalculate"
-        android:layout_width="370dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="18dp"
